@@ -1,0 +1,46 @@
+Debugging ArraySet.java
+Name: Nick Codispoti
+Section: CS 221
+
+INITIAL RUN RESULTS:
+	emptySet_testIsEmpty                          	***FAIL***
+	emptySet_addA_A_testSize                      	***FAIL***
+	emptySet_addA_A_testContainsA                 	***FAIL***
+	emptySet_addA_A_testRemoveA                   	***FAIL***
+	A_addA_A_testSize                             	***FAIL***
+	A_addA_A_testContainsA                        	***FAIL***	
+	A_addA_A_testRemoveA                          	***FAIL***
+	A_addB_AB_testSize                            	***FAIL***
+	A_addB_AB_testContainsA                       	***FAIL***
+	A_addB_AB_testContainsB                       	***FAIL***
+	A_addB_AB_testRemoveA                         	***FAIL***
+	A_addB_AB_testRemoveB                         	***FAIL***
+	AB_addC_ABC_testSize                          	***FAIL***
+	AB_addC_ABC_testContainsA                     	***FAIL***
+	AB_addC_ABC_testContainsB                     	***FAIL***
+	AB_addC_ABC_testContainsC                     	***FAIL***
+	AB_addC_ABC_testRemoveA                       	***FAIL***
+	AB_addC_ABC_testRemoveB                       	***FAIL***
+	AB_addC_ABC_testRemoveC                       	***FAIL***
+
+Bug #1:
+	-Affects "IsEmpty" tests
+    -Added breakpoint to line 40 in ArraySet
+    -Bug found in line 40 at "(rear > 0);"
+    -Changed "return (rear > 0);" to "return (rear <= 0);"
+    
+Bug #2:
+	-Affects "Add" tests
+	-Added breakpoint to line 53 in ArraySet
+	-Bug found in line 59 near "setArray[rear] = element;"
+	-Added "rear++;" to Line 60
+	
+Bug #3:
+	-Affects "Remove" tests
+	-Added Breakpoint to line 65 in ArraySet
+	-Bug found in line 74 at "while (i < rear)"
+	-Changed "while (i < rear)" to "while (i < rear-1)"
+
+CURRENT OUTPUT RESULTS:
+	Total Tests Run: 111 of 111,  Passed: 111,  Failed: 0
+
