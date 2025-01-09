@@ -1,7 +1,7 @@
 package FormatChecker;
 
 /**
- * @author Nick Codispoti
+ * @author
  * 
  * @param args are the files that contains values
  * @throws FileNotFoundException thrown if the file does not exist
