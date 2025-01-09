@@ -13,7 +13,7 @@ public class GridMonitor implements GridMonitorInterface {
     private boolean[][] dangerGrid;
 
     /**
-     * @author Nick Codispoti
+     * @author
      * 
      * @param fname is the file that contains grid values
      * @throws FileNotFoundException thrown if the file does not exist
