@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
 /**
  * Double-linked node implementation of IndexedUnsortedList.
  * 
- * @author Nick Codispoti
+ * @author
  * 
  * @param <T> type to store
  * 
