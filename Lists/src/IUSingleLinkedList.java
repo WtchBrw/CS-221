@@ -10,7 +10,7 @@ import java.util.NoSuchElementException;
  * as I could cause I'm fairly certain we also get graded on style and I crave the
  * sweet succulent points. That said, it works! Enjoy :)
  * 
- * @author Nick Codispoti
+ * @author
  * 
  * @param <T> type of data
  * 
