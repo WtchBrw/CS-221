@@ -7,7 +7,7 @@ import java.util.ConcurrentModificationException;
 
 /**
  * 
- * @author Nick Codispoti/DChan/Meat-Man/any other aliases I've had
+ * @author
  *
  * Its an array-based useage of the IndexedUnsortedList
  * 
