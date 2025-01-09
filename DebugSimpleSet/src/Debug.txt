@@ -1,5 +1,5 @@
 Debugging ArraySet.java
-Name: Nick Codispoti
+Name: 
 Section: CS 221
 
 INITIAL RUN RESULTS:
